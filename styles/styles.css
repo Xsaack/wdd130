@@ -24,3 +24,30 @@ img {
 p{
     padding: 10px;
 }
+
+aside {
+    width: 300px;  /* Ancho del aside */
+    margin: 20px auto;  /* Margen superior/inferior de 20px y centrado horizontal */
+    border: 1px solid #ccc;  /* Borde de 1px color gris claro */
+    padding: 20px;  /* Relleno interno de 20px */
+    background-color: #f0f0f0;  /* Color de fondo claro */
+    color: #333;  /* Color del texto */
+}
+
+aside img {
+    width: 200px;  /* Ancho de la imagen */
+    height: auto;  /* Mantener la proporción de la altura */
+}
+
+main img {
+    width: 200px;  /* Ancho de la imagen */
+    height: auto;  /* Mantener la proporción de la altura */
+}
+
+footer {
+    margin-top: 20px;  /* Espaciado superior */
+    border-top: 1px solid #ccc;  /* Borde superior */
+    text-align: center;  /* Alineación del texto al centro */
+}
+
+
