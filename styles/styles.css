@@ -5,7 +5,7 @@
 
 
 nav {
-    background-color: var(heading-background-color);
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -16,7 +16,7 @@ padding: 20px;
 }
 
 h1{
-    color: var(heading-background-color);
+    color: var(--heading-background-color);
 }
 
 img {
@@ -34,7 +34,7 @@ p{
 aside {
     width: 300px; 
     margin: 20px auto;  
-    border: var(border-top);  
+    border: var(--border-top);  
     padding: 20px; 
     background-color: #f0f0f0;
     color: #333;  
@@ -52,7 +52,7 @@ main img {
 
 footer {
     margin-top: 20px;  
-    border-top: var(border-top);  
+    border-top: var(--border-top);  
     text-align: center;  
 }
 
