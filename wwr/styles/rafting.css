@@ -244,3 +244,13 @@ body {
     height: 450px;
     border: 0;
 }
+
+.footer .sociallinks {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .sociallinks img {
+    width: 30px; /* Ajustar el ancho de los logos */
+    height: auto; /* Mantener la proporción de los logos */
+}
