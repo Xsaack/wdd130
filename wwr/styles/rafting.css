@@ -167,6 +167,42 @@ body {
     border-radius: 10px; 
 }
 
+.adventure-content {
+    padding: 20px;
+    border: 2px solid rgba(82, 82, 82, 0.8);
+    background-color: rgba(82, 82, 82, 0.138);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.adventure-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.adventure-list figure {
+    margin: 0;
+    max-width: 200px;
+}
+
+.adventure-list img {
+    width: 200px; /* Ajusta el ancho deseado */
+    height: 150px; /* Ajusta la altura deseada */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+}
+
+
+.adventure-list figcaption {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
+
+
 .profiles {
     display: flex;
     justify-content: space-around;
