@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>About Us | River Adventures</title>
+    <title>Home | River Adventures</title>
+    <meta name="description" content="Welcome to River Adventures. Experience the thrill of white water rafting with our expert guides. Sign up for our newsletter and explore our exciting trips.">
 </head>
 <body>
     <header class="header">
@@ -23,48 +24,39 @@
         </nav>
     </header>
     <main class="main">
-        <section class="company-description">
-            <h2>About River Adventures</h2>
-            <div class="description-content">
-                <div class="description-text">
-                <p>At River Adventures, we are dedicated to providing exhilarating, safe, and memorable rafting experiences that connect people with the thrill of nature. Our expert guides ensure every trip is filled with excitement and laughter, making it an adventure you’ll want to relive over and over again.</p>
-                </div>
-                <img src="images/rafting52_600.jpg" alt="Company Image" class="company-img">
+        <section class="hero">
+            <img src="images/river-wide3.jpg" alt="Hero Image" class="hero-image">
+            <div class="hero-text">
+                <h2>Welcome to River Adventures</h2>
             </div>
         </section>
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-content">
-                <p>River Adventures has been bringing adrenaline and laughter to whitewater rafting enthusiasts for three exciting years. Founded by three adventurous friends who shared an unwavering passion for wild rivers and outdoor adventures, this company has come a long way since their first impromptu trip with an inflatable raft and a thirst for fun.</p>
-                <img src="images/rafting1_600.jpg" alt="River Adventure History">
-                <p>With expert guides who know how to turn every swirl and rapid into a burst of laughter, Crazy River has earned a reputation as the most fun and safe choice for adventurers of all ages. From splashy birthday celebrations to unforgettable bachelor parties, each trip with them is a water-filled party. And to top it all off, their legendary stories will make you want to relive the experience over and over again!</p>
-            </div>
-        </section>
-        <section class="adventures">
-            <h2>Adventure Awaits You</h2>
-            <div class="adventure-content">
-                <div class="adventure-list">
-                <figure>
-                    <img src="images/rafting1_600.jpg" alt="adventure1">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting14_600.jpg" alt="adventure2">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting17_600.jpg" alt="adventure3">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting52_600.jpg" alt="adventure4">
-                    <figcaption>The Gauntlet</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/river-wide3.jpg" alt="adventure5">
-                    <figcaption>Devil's Drop</figcaption>
-                </figure>
+        <section class="newsletter-signup">
+            <h2>Sign Up for Our Newsletter</h2>
+            <form action="submit_newsletter.php" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
+        </section>
+        <section class="cta">
+            <a href="trips.html" class="cta-button">Explore Our Trips</a>
+        </section>
+        <section class="content-grid">
+            <div class="grid-item">
+                <img src="images/rafting1_600.jpg" alt="Image 1">
+                <p>Experience the best white water rafting adventures with River Adventures. Our expert guides ensure a safe and thrilling journey.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/rafting47_600.jpg" alt="Image 2">
+                <p>Join us for unforgettable trips down some of the most beautiful and challenging rivers. Perfect for adventurers of all levels.</p>
             </div>
         </section>
     </main>
